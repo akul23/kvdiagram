@@ -28,11 +28,11 @@ int main() {
 
     ::SendMessage(::GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000);
 
-system("title Auto Zaponsek");
+    system("title Auto Zaponsek");
     system("color a");
 
 
-    while (1){
+    while (1) {
 
         cout << "|=================================================|" << endl;
         cout << "|           Welcome to auto-zaponpsek             |" << endl;
@@ -68,7 +68,7 @@ system("title Auto Zaponsek");
         }
 
 
-        cout <<endl <<endl << "              A         " << endl;
+        cout << endl << endl << "              A         " << endl;
         cout << "     -----------------" << endl;
         cout << "  | |=======================================|" << endl;
         cout << "B | |  " << izhodi[6] << "     |    " << izhodi[7] << "     |    " << izhodi[3] << "     |    "

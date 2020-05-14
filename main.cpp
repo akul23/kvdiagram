@@ -23,6 +23,30 @@ const bool vars[KOMBS][VHODI] = {
         {1, 1, 1},
 };
 
+
+
+
+void welcomeScreen(){
+    cout << "|=================================================|" << endl;
+    cout << "|           Welcome to auto-zaponpsek             |" << endl;
+    cout << "|                                                 |" << endl;
+    cout << "|                                                 |" << endl;
+    cout << "|   Press enter to continue                       |" << endl;
+    cout << "|                                                 |" << endl;
+    cout << "|                                                 |" << endl;
+    cout << "|                                                 |" << endl;
+    cout << "|   To quit press CTRL+C                          |" << endl;
+    cout << "|                                                 |" << endl;
+    cout << "|                    (c) Dejan | patent pending.  |" << endl;
+    cout << "|=================================================|" << endl << endl << endl;
+
+    system("pause > nul");
+}
+
+
+
+
+
 int main() {
 
 
@@ -33,21 +57,8 @@ int main() {
 
 
     while (1) {
+        welcomeScreen();
 
-        cout << "|=================================================|" << endl;
-        cout << "|           Welcome to auto-zaponpsek             |" << endl;
-        cout << "|                                                 |" << endl;
-        cout << "|                                                 |" << endl;
-        cout << "|   Press enter to continue                       |" << endl;
-        cout << "|                                                 |" << endl;
-        cout << "|                                                 |" << endl;
-        cout << "|                                                 |" << endl;
-        cout << "|   To quit press CTRL+C                          |" << endl;
-        cout << "|                                                 |" << endl;
-        cout << "|                    (c) Dejan | patent pending.  |" << endl;
-        cout << "|=================================================|" << endl << endl << endl;
-
-        system("pause > nul");
 
         cout << endl << endl << "(Write 0 or 1, then press enter)" << endl;
 

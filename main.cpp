@@ -50,9 +50,13 @@ void welcomeScreen(){
 int main() {
 
 
+    //Full screen console window
     ::SendMessage(::GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000);
 
+    //I dont know, why did I even set title to borderless-window.
     system("title Auto Zaponsek");
+
+    //Set green text for better look
     system("color a");
 
 
@@ -73,7 +77,7 @@ int main() {
 
             }
 
-            cin >> izhodi[i];
+            cin >> izhodi[i]; //TODO: check valid type
             //cout << " " << (izhodi[i] ? 1 : 0) << "";
 
         }

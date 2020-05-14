@@ -1,5 +1,6 @@
 #include <iostream>
 #include <windows.h>
+#include <math.h>
 
 
 #pragma comment(lib, "user32")
@@ -8,7 +9,9 @@ using namespace std;
 
 
 #define VHODI 3
-#define KOMBS 8
+
+int KOMBS = pov(2,VHODI);
+
 
 
 bool izhodi[KOMBS];
